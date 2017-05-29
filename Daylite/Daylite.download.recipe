@@ -14,7 +14,7 @@
         <string>https://www.marketcircle.com/daylite/download/6/daylitedma/</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.2.0</string>
+    <string>0.4.0</string>
     <key>Process</key>
     <array>
         <dict>
@@ -26,6 +26,26 @@
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>InstallFromDMG</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+                <key>items_to_copy</key>
+                <array>
+                  <dict>
+                    <key>source_item</key>
+                    <string>Install Daylite &amp; Mail Assistant.pkg</string>
+                    <key>destination_path</key>
+                    <string>%RECIPE_CACHE_DIR%/downloads/</string>
+                    <key>destination_item</key>
+                    <string>%NAME%.pkg</string>
+                  </dict>
+                </array>
             </dict>
         </dict>
     </array>
