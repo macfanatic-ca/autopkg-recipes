@@ -19,15 +19,17 @@
             <string>InstallFromDMG</string>
             <key>Arguments</key>
             <dict>
-                <key>items_to_copy</key>
-                <array>
-                  <key>source_item</key>
-                  <string>Google Drive.app</string>
-                  <key>destination_path</key>
-                  <string>/Applications/</string>
-                </array>
                 <key>dmg_path</key>
                 <string>%pathname%</string>
+                <key>items_to_copy</key>
+                <array>
+                  <dict>
+                    <key>source_item</key>
+                    <string>Google Drive.app</string>
+                    <key>destination_path</key>
+                    <string>/Applications/</string>
+                  </dict>
+                </array>
             </dict>
         </dict>
     </array>
