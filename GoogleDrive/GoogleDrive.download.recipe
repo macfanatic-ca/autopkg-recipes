@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Drive.</string>
     <key>Identifier</key>
-    <string>ca.macfanatic.autopkg.download.GoogleDrive</string>
+    <string>com.github.macfanatic-ca-recipes.download.GoogleDrive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

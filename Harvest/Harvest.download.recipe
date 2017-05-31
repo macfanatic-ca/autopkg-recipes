@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Harvest.</string>
     <key>Identifier</key>
-    <string>ca.macfanatic.autopkg.download.harvest</string>
+    <string>com.github.macfanatic-ca-recipes.download.harvest</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

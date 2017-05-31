@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Installs latest Dropbox from package.</string>
 	<key>Identifier</key>
-	<string>ca.macfanatic.autopkg.install.dropbox</string>
+	<string>com.github.macfanatic-ca-recipes.install.dropbox</string>
     <key>Input</key>
     <dict/>
 	<key>MinimumVersion</key>

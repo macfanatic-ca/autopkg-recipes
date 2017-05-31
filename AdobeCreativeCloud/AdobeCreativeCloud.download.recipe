@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest Adobe Creative Cloud.</string>
 	<key>Identifier</key>
-	<string>ca.macfanatic.autopkg.download.AdobeCreativeCloud</string>
+	<string>com.github.macfanatic-ca-recipes.download.AdobeCreativeCloud</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Installs latest version of Adobes Creative Cloud.</string>
 	<key>Identifier</key>
-	<string>ca.macfanatic.autopkg.install.AdobeCreativeCloud</string>
+	<string>com.github.macfanatic-ca-recipes.install.AdobeCreativeCloud</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>ca.macfanatic.autopkg.download.AdobeCreativeCloud</string>
+	<string>com.github.macfanatic-ca-recipes.download.AdobeCreativeCloud</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest Slack.</string>
 	<key>Identifier</key>
-	<string>ca.macfanatic.autopkg.download.slack</string>
+	<string>com.github.macfanatic-ca-recipes.download.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

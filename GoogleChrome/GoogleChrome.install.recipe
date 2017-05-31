@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Install latest Google Chrome.</string>
     <key>Identifier</key>
-    <string>ca.macfanatic.autopkg.install.googlechrome</string>
+    <string>com.github.macfanatic-ca-recipes.install.googlechrome</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>ca.macfanatic.autopkg.download.googlechrome</string>
+    <string>com.github.macfanatic-ca-recipes.download.googlechrome</string>
     <key>Process</key>
     <array>
         <dict>

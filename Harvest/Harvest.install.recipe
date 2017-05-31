@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Installs latest Harvest.</string>
     <key>Identifier</key>
-    <string>ca.macfanatic.autopkg.install.harvest</string>
+    <string>com.github.macfanatic-ca-recipes.install.harvest</string>
     <key>Input</key>
     <dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.6.1</string>
     <key>ParentRecipe</key>
-    <string>ca.macfanatic.autopkg.download.harvest</string>
+    <string>com.github.macfanatic-ca-recipes.download.harvest</string>
     <key>Process</key>
     <array>
         <dict>

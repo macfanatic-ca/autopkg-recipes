@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Install latest Google Drive.</string>
     <key>Identifier</key>
-    <string>ca.macfanatic.autopkg.install.GoogleDrive</string>
+    <string>com.github.macfanatic-ca-recipes.install.GoogleDrive</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>ca.macfanatic.autopkg.download.GoogleDrive</string>
+    <string>com.github.macfanatic-ca-recipes.download.GoogleDrive</string>
     <key>Process</key>
     <array>
         <dict>
