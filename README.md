@@ -12,3 +12,8 @@ Used to deploy the latest software with ease
 
 ## Configuration
 1. `autopkg repo-add https://github.com/macfanatic-ca/autopkg-recipes.git`
+
+## Deploy with Jamf Pro
+Utilize the below Scripts and EAs to deploy, configure, and execute AutoPkg on end-user workstations:
+* https://github.com/macfanatic-ca/macOS_scripts/tree/master/AutoPkg
+* https://github.com/macfanatic-ca/macOS_scripts/tree/master/GitÂ
