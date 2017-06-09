@@ -94,18 +94,12 @@ install_dir=`dirname $0`
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>PathDeleter</string>
+			<string>Installer</string>
 			<key>Arguments</key>
 			<dict>
-				<key>path_list</key>
-				<array>
-					<string>%RECIPE_CACHE_DIR%/Scripts/%NAME%.app</string>
-				</array>
+					<key>pkg_path</key>
+					<string>%RECIPE_CACHE_DIR%/AdobeCreativeCloud-%version%.pkg</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>Installer</string>
 		</dict>
 		<dict>
 				<key>Processor</key>
