@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Install latest Daylite.</string>
     <key>Identifier</key>
-    <string>com.github.macfanatic-ca-recipes.install.daylite</string>
+    <string>com.github.macfanatic-ca-recipes.install.Daylite</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>ParentRecipe</key>
-    <string>com.github.macfanatic-ca-recipes.download.daylite</string>
+    <string>com.github.macfanatic-ca-recipes.download.Daylite</string>
     <key>Process</key>
     <array>
         <dict>

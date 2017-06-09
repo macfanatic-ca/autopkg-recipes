@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download latest Daylite.</string>
     <key>Identifier</key>
-    <string>com.github.macfanatic-ca-recipes.download.daylite</string>
+    <string>com.github.macfanatic-ca-recipes.download.Daylite</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
