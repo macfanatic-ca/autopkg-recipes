@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Google Drive Backup & Sync.</string>
+    <string>Downloads latest Google Drive Backup and Sync.</string>
     <key>Identifier</key>
     <string>com.github.macfanatic-ca-recipes.download.GoogleDriveBS</string>
     <key>Input</key>
