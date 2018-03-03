@@ -16,4 +16,4 @@ Used to deploy the latest software with ease
 ## Deploy with Jamf Pro
 Utilize the below Scripts and EAs to deploy, configure, and execute AutoPkg on end-user workstations:
 * https://github.com/macfanatic-ca/macOS_scripts/tree/master/AutoPkg
-* https://github.com/macfanatic-ca/macOS_scripts/tree/master/GitÂ
+* https://github.com/macfanatic-ca/macOS_scripts/tree/master/Git
