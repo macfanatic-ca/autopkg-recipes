@@ -16,28 +16,22 @@
     <key>Process</key>
     <array>
         <dict>
-          <key>Processor</key>
-          <string>Unarchiver</string>
-          <key>Arguments</key>
-          <dict>
-            <key>archive_path</key>
-            <string>%RECIPE_CACHE_DIR%/downloads/%NAME%.zip</string>
-            <key>purge_destination</key>
-            <true/>
-          </dict>
-        </dict>
-        <dict>
             <key>Processor</key>
-            <string>Copier</string>
+            <string>InstallFromDMG</string>
             <key>Arguments</key>
-              <dict>
-                <key>source_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%/%NAME%.app</string>
-                <key>destination_path</key>
-                <string>/Applications/%NAME%.app</string>
-                <key>overwrite</key>
-                <true/>
-              </dict>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+                <key>items_to_copy</key>
+                <array>
+                    <dict>
+                        <key>source_item</key>
+                        <string>Slack.app</string>
+                        <key>destination_path</key>
+                        <string>/Applications/</string>
+                    </dict>
+                </array>
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
@@ -47,7 +41,6 @@
                 <key>path_list</key>
                 <array>
                     <string>%RECIPE_CACHE_DIR%/downloads/</string>
-                    <string>%RECIPE_CACHE_DIR%/%NAME%/</string>
                 </array>
             </dict>
         </dict>
