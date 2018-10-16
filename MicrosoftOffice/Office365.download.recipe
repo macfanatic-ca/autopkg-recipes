@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Microsoft Office 2016.</string>
+    <string>Downloads latest Microsoft Office 365.</string>
     <key>Identifier</key>
-    <string>com.github.macfanatic-ca-recipes.download.Office2016</string>
+    <string>team.classmate.autopkg-recipes.download.Office365</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Office2016Suite</string>
+        <string>Office365Suite</string>
         <key>DOWNLOAD_URL_BASE</key>
-        <string>http://go.microsoft.com/fwlink/?linkid=525133</string>
+        <string>https://go.microsoft.com/fwlink/?linkid=525133</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.1</string>

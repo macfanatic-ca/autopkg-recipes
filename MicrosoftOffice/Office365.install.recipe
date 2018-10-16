@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Installs latest Microsoft Office 2016.</string>
+    <string>Installs latest Microsoft Office 365.</string>
     <key>Identifier</key>
-    <string>com.github.macfanatic-ca-recipes.install.Office2016</string>
+    <string>com.github.macfanatic-ca-recipes.install.Office365</string>
     <key>Input</key>
     <dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.macfanatic-ca-recipes.download.Office2016</string>
+    <string>team.classmate.autopkg-recipes.download.Office365</string>
     <key>Process</key>
     <array>
         <dict>
